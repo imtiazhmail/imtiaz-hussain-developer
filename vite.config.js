@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-   base: '/imtiaz-hussain-developer/', // 👈 add this (repo name)
+  base: '/imtiaz-hussain-developer/', // 👈 must match repo name exactly
 })
