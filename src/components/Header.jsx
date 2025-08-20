@@ -6,10 +6,10 @@ export default function Header() {
 
   return (
     <header className="bg-gray-900 text-white shadow-lg fixed w-full top-0 z-50">
-      <div className="container mx-auto flex items-center justify-between px-6 py-4">
+      <div className="container mx-auto flex items-center justify-between px-5 lg:px-20 py-4">
         
         {/* Logo / Name */}
-        <a href="/" className="text-2xl font-bold text-yellow-400 hover:text-yellow-300">
+        <a href="/" className="text-2xl font-bold text-orange-300 hover:text-white transition-all duration-900 ease-in-out hover:scale-105 hover:shadow-lg">
           Imtiaz.dev
         </a>
 
@@ -24,7 +24,7 @@ export default function Header() {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden focus:outline-none"
+          className="md:hidden focus:outline-none "
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@ export default function Header() {
 
       {/* Mobile Nav */}
       {isOpen && (
-        <nav className="md:hidden bg-gray-800 px-6 py-4 space-y-4 text-lg">
+        <nav className="md:hidden bg-gray-800 px-2 py-8 space-y-4 text-lg text-center">
           <a href="#about" className="block hover:text-yellow-400">About</a>
           <a href="#projects" className="block hover:text-yellow-400">Projects</a>
           <a href="#skills" className="block hover:text-yellow-400">Skills</a>
