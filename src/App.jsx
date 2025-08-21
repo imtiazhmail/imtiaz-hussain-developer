@@ -11,7 +11,6 @@ function App() {
     <>
       <Header />
       <Hero />  
-      {/* //spacing is becua se of hero  Component */}
       <Skills /> 
       <ProjectsCarousel />
       {/* Some issue with ProjectsCarousel components but most is hero  */}

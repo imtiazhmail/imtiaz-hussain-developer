@@ -64,7 +64,7 @@ const ProjectsCarousel = () => {
   };
 
   return (
-    <section className="py-12 bg-gray-50">
+    <section className="md:py-12 bg-gray-50">
       <div className="max-w-5xl mx-auto text-center px-4">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}

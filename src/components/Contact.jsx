@@ -9,7 +9,7 @@ import {
 
 function Contact() {
   return (
-    <section className="py-20 bg-gray-50 dark:bg-gray-900">
+    <section className="pb-20 bg-gray-50 dark:bg-gray-900">
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
         
         {/* Left Side - Contact Form */}
@@ -51,14 +51,14 @@ function Contact() {
               <FaEnvelope className="text-indigo-600 text-3xl mb-3" />
               <p className="text-gray-900 dark:text-white font-semibold">Email</p>
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                imtiazhmail@gmail.com
+                imtiazh346@gmail.com
               </p>
             </div>
             <div className="flex flex-col items-center text-center bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition">
               <FaPhoneAlt className="text-indigo-600 text-3xl mb-3" />
               <p className="text-gray-900 dark:text-white font-semibold">Phone</p>
               <p className="text-gray-600 dark:text-gray-400 text-sm">
-                +92 300 1234567
+                +92 300 3360499
               </p>
             </div>
             <div className="flex flex-col items-center text-center bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:scale-105 transition col-span-2">
@@ -77,10 +77,10 @@ function Contact() {
               <a href="https://github.com/imtiazhmail" target="_blank" rel="noreferrer">
                 <FaGithub className="text-white text-3xl hover:scale-125 transition" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+              <a href="#" target="_blank" rel="noreferrer">
                 <FaLinkedin className="text-white text-3xl hover:scale-125 transition" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer">
+              <a href="#" target="_blank" rel="noreferrer">
                 <FaTwitter className="text-white text-3xl hover:scale-125 transition" />
               </a>
             </div>
