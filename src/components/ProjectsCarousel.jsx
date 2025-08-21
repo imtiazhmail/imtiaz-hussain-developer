@@ -45,7 +45,7 @@ const ProjectsCarousel = () => {
       {
         breakpoint: 1024, // tablets
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
         },
       },
       {
@@ -64,7 +64,7 @@ const ProjectsCarousel = () => {
   };
 
   return (
-    <section className="md:py-12 bg-gray-50">
+    <section id="projects" className="md:py-12 bg-gray-50 scroll-mt-20">
       <div className="max-w-5xl mx-auto text-center px-4">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
@@ -88,13 +88,13 @@ const ProjectsCarousel = () => {
                 <img
                   src={project.img}
                   alt={project.title}
-                  className="w-full h-56 sm:h-64 object-cover"
+                  className="w-full h-48 sm:h-56 md:h-64 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-lg sm:text-xl font-semibold mb-2">
+                  <h3 className="text-base sm:text-lg md:text-xl font-semibold mb-2">
                     {project.title}
                   </h3>
-                  <p className="text-gray-600 text-sm sm:text-base mb-4">
+                  <p className="text-gray-600 text-xs sm:text-sm md:text-base mb-4">
                     {project.description}
                   </p>
                   <a

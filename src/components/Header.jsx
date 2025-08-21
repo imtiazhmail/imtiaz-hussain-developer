@@ -5,7 +5,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gray-900 text-white shadow-lg fixed w-full top-0 z-50">
+    <header className="bg-gray-900 text-white shadow-lg fixed w-full top-0 z-50 scroll-mt-20">
       <div className="container mx-auto flex items-center justify-between px-5 lg:px-20 py-4">
         
         {/* Logo / Name */}
@@ -15,10 +15,11 @@ export default function Header() {
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex space-x-6 text-lg font-medium">
-          <a href="#about" className="hover:text-yellow-400 transition">About</a>
-          <a href="#projects" className="hover:text-yellow-400 transition">Projects</a>
-          <a href="#skills" className="hover:text-yellow-400 transition">Skills</a>
-          <a href="#contact" className="hover:text-yellow-400 transition">Contact</a>
+          <a href="#hero" className="hover:text-brand transition">Home</a>
+          <a href="#skills" className="hover:text-brand transition">Skills</a>
+          <a href="#projects" className="hover:text-brand transition">Projects</a>
+          <a href="#about" className="hover:text-brand">About</a>
+          <a href="#contact" className="hover:text-brand">Contact</a>
         </nav>
 
         {/* Mobile Menu Button */}
@@ -55,10 +56,11 @@ export default function Header() {
       {/* Mobile Nav */}
       {isOpen && (
         <nav className="md:hidden bg-gray-800 px-2 py-8 space-y-4 text-lg text-center">
-          <a href="#about" className="block hover:text-yellow-400">About</a>
-          <a href="#projects" className="block hover:text-yellow-400">Projects</a>
-          <a href="#skills" className="block hover:text-yellow-400">Skills</a>
-          <a href="#contact" className="block hover:text-yellow-400">Contact</a>
+        <a href="#about" className="hover:text-brand transition">About</a>
+        <a href="#projects" className="hover:text-brand transition">Skills</a>
+        <a href="#skills" className="hover:text-brand transition">Projects</a>
+        <a href="#about" className="hover:text-brand">About</a>
+        <a href="#contact" className="hover:text-brand">Contact</a>
         </nav>
       )}
     </header>

@@ -1,2 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand: #3B82F6;       /* Electric Blue - primary */
+  --color-brand-light: #22D3EE; /* Cyan/Light Blue - secondary */
+  --color-brand-dark: #1E40AF;  /* Deep Blue - contrast */
+
+  /* Hover States */
+  --color-brand-hover: #2563EB;       /* Slightly darker blue */
+  --color-brand-light-hover: #06B6D4; /* More vibrant cyan */
+  --color-brand-dark-hover: #1D4ED8;  /* Brighter navy blue */
+}
+
+html, body {
+  @apply overflow-x-hidden;
+  scroll-behavior: smooth;
+}
+

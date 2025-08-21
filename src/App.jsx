@@ -13,7 +13,6 @@ function App() {
       <Hero />  
       <Skills /> 
       <ProjectsCarousel />
-      {/* Some issue with ProjectsCarousel components but most is hero  */}
       <About />
       <Contact />
       <Footer />
