@@ -33,7 +33,7 @@ export default function About() {
   return (
     <section id="about" className="py-16 bg-gray-50 scroll-mt-15">
       <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-12">My Journey 🚀</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">My Journey </h2>
 
         <div className="relative">
           {/* Timeline line */}

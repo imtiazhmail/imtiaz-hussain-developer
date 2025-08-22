@@ -4,7 +4,7 @@ export default function Hero() {
       <div className="max-w-4xl mx-auto text-center">
         {/* Greeting */}
         <h1 className="text-3xl sm:text-4xl md:text-6xl font-extrabold leading-snug sm:leading-tight mb-6">
-          Hi, I’m <span className="text-brand">Imtiaz Hussain </span> 👋
+          Hi 👋 I’m <span className="text-brand">Imtiaz Hussain </span> 
         </h1>
 
         {/* Subtitle */}

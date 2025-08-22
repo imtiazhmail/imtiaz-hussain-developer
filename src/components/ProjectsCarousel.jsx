@@ -72,7 +72,7 @@ const ProjectsCarousel = () => {
           transition={{ duration: 0.7 }}
           className="text-3xl font-bold mb-6 text-gray-800"
         >
-          🚀 My Projects
+          Projects
         </motion.h2>
 
         <Slider {...settings}>
