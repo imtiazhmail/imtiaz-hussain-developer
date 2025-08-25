@@ -26,7 +26,7 @@ const timeline = [
 
 export default function About() {
   return (
-    <section id="about" className="py-6 md:py-16 bg-gray-50 scroll-mt-5 md:scroll-mt-15">
+    <section id="about" className=" bg-gray-50 scroll-mt-5 md:scroll-mt-10">
       <div className="max-w-6xl mx-auto px-5 py-3">
         <h2 className="text-4xl font-bold text-center py-4 md:py-6 pb-6 md:pb-12">My Journey </h2>
 

@@ -64,7 +64,7 @@ const ProjectsCarousel = () => {
   };
 
   return (
-    <section id="projects" className="py-6 md:py-12 bg-gray-50 scroll-mt-20">
+    <section id="projects" className="py-6 md:py-12 bg-gray-50 scroll-mt-10">
       <div className="max-w-5xl mx-auto text-center px-4">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
