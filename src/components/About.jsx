@@ -1,39 +1,34 @@
 // src/components/About.jsx
 import { motion } from "framer-motion";
-import { FaCode, FaShopify, FaWordpress, FaVideo, FaChartLine } from "react-icons/fa";
+import { FaCode, FaShopify, FaUserMd, } from "react-icons/fa";
 
 const timeline = [
   {
-    year: "2019",
-    title: "Started Coding",
-    desc: "Began my journey in web development with React and modern frameworks.",
+    year: "2022",
+    title: "First Steps in Development",
+    desc: "Started my coding journey by building WordPress and Shopify websites at Bizsoft Technologies.",
     icon: <FaCode className="text-blue-500 text-2xl" />,
   },
   {
-    year: "2020",
-    title: "Freelancing",
-    desc: "Built websites on Shopify & WordPress for clients worldwide.",
+    year: "2023",
+    title: "Shopify Developer",
+    desc: "Worked on Reana.pk, focusing on Shopify development and improving e-commerce functionality.",
     icon: <FaShopify className="text-green-500 text-2xl" />,
   },
   {
-    year: "2021",
-    title: "Video Editing",
-    desc: "Worked with businesses to create engaging video content.",
-    icon: <FaVideo className="text-pink-500 text-2xl" />,
+    year: "2024",
+    title: "Senior Shopify Developer",
+    desc: "Currently developing and maintaining Shopify stores, optimizing performance and user experience.",
+    icon: <FaUserMd className="text-black text-2xl" />,
   },
-  {
-    year: "2022",
-    title: "Trading & Growth",
-    desc: "Explored financial trading while improving full-stack development skills.",
-    icon: <FaChartLine className="text-yellow-500 text-2xl" />,
-  },
+
 ];
 
 export default function About() {
   return (
-    <section id="about" className="py-16 bg-gray-50 scroll-mt-15">
-      <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center mb-12">My Journey </h2>
+    <section id="about" className="py-6 md:py-16 bg-gray-50 scroll-mt-5 md:scroll-mt-15">
+      <div className="max-w-6xl mx-auto px-5 py-3">
+        <h2 className="text-4xl font-bold text-center py-4 md:py-6 pb-6 md:pb-12">My Journey </h2>
 
         <div className="relative">
           {/* Timeline line */}

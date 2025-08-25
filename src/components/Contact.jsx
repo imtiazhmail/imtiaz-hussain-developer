@@ -9,8 +9,8 @@ import {
 
 function Contact() {
   return (
-    <section id="contact" className="pb-20 bg-gray-50 dark:bg-gray-900 scroll-mt-30">
-      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12">
+    <section id="contact" className="pb-5 bg-gray-50 dark:bg-gray-900 scroll-mt-5 md:scroll-mt-20" >
+      <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 pt-8">
         
         {/* Left Side - Contact Form */}
         <div className="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-xl border border-gray-200 dark:border-gray-700">

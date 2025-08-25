@@ -6,7 +6,7 @@ function Footer() {
       {/* Gradient background overlay */}
       <div className="absolute inset-0 bg-gradient-to-tr from-gray-900 via-gray-800 to-gray-900 opacity-90"></div>
 
-      <div className="relative max-w-7xl mx-auto px-6 py-12 grid gap-10 md:grid-cols-3 z-10">
+      <div className="relative max-w-7xl mx-auto px-6 py-10 md:py-12 grid gap-10 md:grid-cols-3 z-10">
         
         {/* Brand Section */}
         <div>
